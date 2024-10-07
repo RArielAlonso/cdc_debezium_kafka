@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "debezium"
+version = "0.1.0"
+description = ""
+authors = ["RArielAlonso <rariel.alonso@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+confluent-kafka = "^2.5.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
